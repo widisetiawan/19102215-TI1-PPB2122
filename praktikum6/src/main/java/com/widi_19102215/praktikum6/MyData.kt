@@ -8,7 +8,10 @@ class MyData(s: String, s1: String, s2: String) {
     data class MyData(
         var name: String,
         var description: String,
-        var photo: String
+        var photo: String,
+        val lat: Double,
+        val lang: Double
+
     ) : Parcelable
 
 }
