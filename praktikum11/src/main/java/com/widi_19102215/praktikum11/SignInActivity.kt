@@ -31,6 +31,7 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
         binding.tvSignUp.setOnClickListener(this)
         binding.btnEmail.setOnClickListener(this)
         binding.btnPhone.setOnClickListener(this)
+
         auth = Firebase.auth
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
@@ -55,7 +56,10 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnEmail -> {
                 signIn()
             }
-
+            R.id.btnPhone -> {
+                val intent = Intent(this@SignInActivity, PhoneAuthActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
     private fun signIn() {

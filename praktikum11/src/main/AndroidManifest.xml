@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyProjectPPB">
         <activity
+            android:name=".PhoneAuthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuoteAddUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardQuoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Firebase</string>
+    <string name="delete">Delete</string>
+    <string name="title">Judul</string>
+    <string name="description">Descripsi</string>
+    <string name="category">Kategori</string>
+    <string name="submit">SIMPAN</string>
+    <string name="date">Tanggal</string>
 </resources>
