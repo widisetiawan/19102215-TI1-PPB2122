@@ -1,6 +1,6 @@
 package com.widi_19102215.praktikum14.api
 
-import com.widi_19102215.praktikum14.`interface`.CoroutineContextProvider
+import com.widi_19102215.praktikum14.CoroutineContextProvider
 import com.widi_19102215.praktikum14.`interface`.MainView
 import com.widi_19102215.praktikum14.model.Login
 import com.widi_19102215.praktikum14.model.Message

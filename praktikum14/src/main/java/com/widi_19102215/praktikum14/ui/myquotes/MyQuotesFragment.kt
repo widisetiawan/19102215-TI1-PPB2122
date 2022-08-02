@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.widi_19102215.praktikum14.CoroutineContextProvider
 import com.widi_19102215.praktikum14.QuoteAdapter
 import com.widi_19102215.praktikum14.R
 import com.widi_19102215.praktikum14.TokenPref
-import com.widi_19102215.praktikum14.`interface`.CoroutineContextProvider
 import com.widi_19102215.praktikum14.`interface`.MainView
 import com.widi_19102215.praktikum14.api.MainPresenter
 import com.widi_19102215.praktikum14.databinding.FragmentMyQuotesBinding

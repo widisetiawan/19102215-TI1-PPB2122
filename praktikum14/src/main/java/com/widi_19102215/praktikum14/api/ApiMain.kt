@@ -8,6 +8,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
+
 class ApiMain : Application() {
     private val client = OkHttpClient().newBuilder()
         .addInterceptor(HttpLoggingInterceptor().apply {

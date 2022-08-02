@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.widi_19102215.praktikum14.CoroutineContextProvider
 import com.widi_19102215.praktikum14.QuoteAdapter
 import com.widi_19102215.praktikum14.R
 import com.widi_19102215.praktikum14.TokenPref
-import com.widi_19102215.praktikum14.`interface`.CoroutineContextProvider
 import com.widi_19102215.praktikum14.`interface`.MainView
 import com.widi_19102215.praktikum14.api.MainPresenter
 import com.widi_19102215.praktikum14.databinding.FragmentGlobalQuotesBinding
@@ -40,15 +40,15 @@ class GlobalQuotesFragment : Fragment(), MainView {
         binding.recyclerviewGlobalQuotes.adapter = adapter
         presenter = MainPresenter(this, CoroutineContextProvider())
         progressbar.visibility = View.VISIBLE
-        presenter.getAllQuotes(token.token)
+        token.token?.let { presenter.getAllQuotes(it) }
         swiperefresh.setOnRefreshListener {
             progressbar.visibility = View.INVISIBLE
-            presenter.getAllQuotes(token.token)
+            token.token?.let { presenter.getAllQuotes(it) }
         }
     }
     override fun onResume() {
         super.onResume()
-        presenter.getAllQuotes(token.token)
+        token.token?.let { presenter.getAllQuotes(it) }
     }
     override fun showMessage(messsage: String) {
         Toast.makeText(requireActivity(),messsage, Toast.LENGTH_SHORT).show()

@@ -6,3 +6,4 @@ data class Message(
     @SerializedName("message")
     var message: String? = null
 )
+
