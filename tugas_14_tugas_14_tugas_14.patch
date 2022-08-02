@@ -1,0 +1,172 @@
+Index: .idea/deploymentTargetDropDown.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/.idea/deploymentTargetDropDown.xml	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="deploymentTargetDropDown">
++    <runningDeviceTargetSelectedWithDropDown>
++      <Target>
++        <type value="RUNNING_DEVICE_TARGET" />
++        <deviceKey>
++          <Key>
++            <type value="SERIAL_NUMBER" />
++            <value value="7LMZT8GMHYWKT8FU" />
++          </Key>
++        </deviceKey>
++      </Target>
++    </runningDeviceTargetSelectedWithDropDown>
++    <timeTargetWasSelectedWithDropDown value="2022-05-09T03:23:37.281611600Z" />
++  </component>
++</project>
+\ No newline at end of file
+Index: praktikum11/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum11/google-services.json b/praktikum11/google-services.json
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum11/google-services.json	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,39 @@
++{
++  "project_info": {
++    "project_number": "689011934283",
++    "project_id": "fir-ppb2022-8e90d",
++    "storage_bucket": "fir-ppb2022-8e90d.appspot.com"
++  },
++  "client": [
++    {
++      "client_info": {
++        "mobilesdk_app_id": "1:689011934283:android:bcca22741c6d21ac0df9ce",
++        "android_client_info": {
++          "package_name": "com.widi_19102215.praktikum11"
++        }
++      },
++      "oauth_client": [
++        {
++          "client_id": "689011934283-riplsvcv1k8lq588rjs0ejms5jo3cl28.apps.googleusercontent.com",
++          "client_type": 3
++        }
++      ],
++      "api_key": [
++        {
++          "current_key": "AIzaSyC1Oc0t6bwG5NYMMLVNHf-Ac4UKZA-fIRw"
++        }
++      ],
++      "services": {
++        "appinvite_service": {
++          "other_platform_oauth_client": [
++            {
++              "client_id": "689011934283-riplsvcv1k8lq588rjs0ejms5jo3cl28.apps.googleusercontent.com",
++              "client_type": 3
++            }
++          ]
++        }
++      }
++    }
++  ],
++  "configuration_version": "1"
++}
+\ No newline at end of file
+Index: praktikum5/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum5/.idea/.gitignore b/praktikum5/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum5/.idea/.gitignore	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: praktikum5/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum5/.idea/gradle.xml b/praktikum5/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum5/.idea/gradle.xml	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="resolveModulePerSourceSet" value="false" />
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: praktikum5/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum5/.idea/misc.xml b/praktikum5/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum5/.idea/misc.xml	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: praktikum5/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum5/.idea/modules.xml b/praktikum5/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum5/.idea/modules.xml	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/praktikum5.iml" filepath="$PROJECT_DIR$/.idea/modules/praktikum5.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: praktikum5/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/praktikum5/.idea/vcs.xml b/praktikum5/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision abf770494a01c92d540c4b81b14451781aef2746)
++++ b/praktikum5/.idea/vcs.xml	(revision abf770494a01c92d540c4b81b14451781aef2746)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
